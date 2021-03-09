@@ -1,0 +1,24 @@
+# Lists use [ ] squeare brackets and commas 
+
+mylist=["one", "two", "Three"," four"]
+mylist.append("Six")
+
+print(mylist) #add to last one
+
+mylist.pop(0) # delete which one you want
+print(mylist)
+
+
+anew_list=[1,10,2,0.5,4,5] # put everything by order and you can asasign it 
+anew_list.sort()
+print(anew_list)
+
+dos=anew_list
+print(anew_list) # reasing 
+
+dos.reverse()
+
+print(dos)
+
+
+
